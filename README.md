@@ -1,4 +1,4 @@
-# ViZDoom [![PyPI version](https://badge.fury.io/py/vizdoom.svg)](https://badge.fury.io/py/vizdoom) ![Build](https://github.com/mwydmuch/ViZDoom/workflows/Build/badge.svg)
+# ViZDoom [![PyPI version](https://badge.fury.io/py/vizdoom.svg)](https://badge.fury.io/py/vizdoom) 
 
 ViZDoom allows developing AI **bots that play Doom using only the visual information** (the screen buffer). It is primarily intended for research in machine visual learning, and deep reinforcement learning, in particular.
 
@@ -26,35 +26,6 @@ ViZDoom is based on [ZDoom](https://github.com/rheit/zdoom) to provide the game 
 ViZDoom API is **reinforcement learning** friendly (suitable also for learning from demonstration, apprenticeship learning or apprenticeship via inverse reinforcement learning, etc.).
 
 
-## Cite as
-> M Wydmuch, M Kempka & W Jaśkowski, ViZDoom Competitions: Playing Doom from Pixels, IEEE Transactions on Games, in print,
-[arXiv:1809.03470](https://arxiv.org/abs/1809.03470)
-```
-@article{wydmuch2018vizdoom,
-  title={ViZDoom Competitions: Playing Doom from Pixels},
-  author={Wydmuch, Marek and Kempka, Micha{\l} and Ja{\'s}kowski, Wojciech},
-  journal={IEEE Transactions on Games},
-  year={2018},
-  publisher={IEEE}
-}
-```
-or
-
-> M. Kempka, M. Wydmuch, G. Runc, J. Toczek & W. Jaśkowski, ViZDoom: A Doom-based AI Research Platform for Visual Reinforcement Learning, IEEE Conference on Computational Intelligence and Games, pp. 341-348, Santorini, Greece, 2016	([arXiv:1605.02097](http://arxiv.org/abs/1605.02097))
-```
-@inproceedings{Kempka2016ViZDoom,
-  author    = {Micha{\l} Kempka and Marek Wydmuch and Grzegorz Runc and Jakub Toczek and Wojciech Ja\'skowski},
-  title     = {{ViZDoom}: A {D}oom-based {AI} Research Platform for Visual Reinforcement Learning},
-  booktitle = {IEEE Conference on Computational Intelligence and Games},  
-  year      = {2016},
-  url       = {http://arxiv.org/abs/1605.02097},
-  address   = {Santorini, Greece},
-  Month     = {Sep},
-  Pages     = {341--348},
-  Publisher = {IEEE},
-  Note      = {The best paper award}
-}
-```
 
 
 ## Python quick start
@@ -92,6 +63,16 @@ To install pre-build release for Windows 10 or 11 64-bit and Python 3.6+ just ru
 pip install vizdoom
 ```
 
+### Install the dependencies
+```
+pip install -r requirements.txt
+```
+
+### To Run
+To run the game, run the following command:
+```
+python run.py
+```
 
 ## Examples
 
@@ -148,11 +129,3 @@ Useful parts:
 - [Sample Factory](https://github.com/alex-petrenko/sample-factory) - A high performance reinforcement learning framework for ViZDoom.
 
 
-## Contributions
-
-This project is maintained and developed in our free time. All bug fixes, new examples, scenarios and other contributions are welcome! We are also open to features ideas and design suggestions.
-
-
-## License
-
-Code original to ViZDoom is under MIT license. ZDoom uses code from several sources with [varying licensing schemes](http://zdoom.org/wiki/license).
