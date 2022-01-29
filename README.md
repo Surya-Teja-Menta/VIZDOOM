@@ -1,4 +1,4 @@
-# ViZDoom [![PyPI version](https://badge.fury.io/py/vizdoom.svg)](https://badge.fury.io/py/vizdoom) 
+# ***ViZDoom*** [![PyPI version](https://badge.fury.io/py/vizdoom.svg)](https://badge.fury.io/py/vizdoom) 
 
 ViZDoom allows developing AI **bots that play Doom using only the visual information** (the screen buffer). It is primarily intended for research in machine visual learning, and deep reinforcement learning, in particular.
 
@@ -7,7 +7,7 @@ ViZDoom is based on [ZDoom](https://github.com/rheit/zdoom) to provide the game 
 ![vizdoom_deadly_corridor](http://www.cs.put.poznan.pl/mkempka/misc/vizdoom_gifs/vizdoom_corridor_segmentation.gif)
 
 
-## Features
+## **Features**
 - Multi-platform (Linux, macOS, Windows),
 - API for Python, C++, and Julia (thanks to [Jun Tian](https://github.com/findmyway)), and also Lua and Java for older versions,
 - Easy-to-create custom scenarios (visual editors, scripting language and examples available),
@@ -30,15 +30,15 @@ ViZDoom API is **reinforcement learning** friendly (suitable also for learning f
 
 ## Python quick start
 
-### Ubuntu
+### **Ubuntu**
 To install ViZDoom on Ubuntu run (may take few minutes):
 ```
 sudo apt install cmake libboost-all-dev libsdl2-dev libfreetype6-dev libgl1-mesa-dev libglu1-mesa-dev libpng-dev libjpeg-dev libbz2-dev libfluidsynth-dev libgme-dev libopenal-dev zlib1g-dev timidity tar nasm
 pip install vizdoom
 ```
-We recommend using at least Ubuntu 18.04+ with Python 3.6+.
+**Recommendation**: Ubuntu 18.04+ with Python 3.6+.
 
-### Conda
+### **Conda**
 To install ViZDoom on a conda environment (no system-wide installations required):
 ```
 conda install -c conda-forge boost cmake gtk2 sdl2
@@ -48,7 +48,7 @@ python setup.py build && python setup.py install
 ```
 Note that `pip install vizdoom` won't work with conda install and you have to follow these steps.
 
-### macOS 
+### **macOS** 
 To install ViZDoom on macOS run (may take few minutes):
 ```
 brew install cmake boost openal-soft sdl2
@@ -57,18 +57,18 @@ pip install vizdoom
 We recommend using at least macOS High Sierra 10.13+ with Python 3.6+.
 Currently, only for Intel CPU, we will gladly accept PR with M1 support.
 
-### Windows
+### **Windows**
 To install pre-build release for Windows 10 or 11 64-bit and Python 3.6+ just run (should take few seconds):
 ```
 pip install vizdoom
 ```
 
-### Install the dependencies
+### **Install the dependencies**
 ```
 pip install -r requirements.txt
 ```
 
-### To Run
+### **To Run**
 To run the game, run the following command:
 ```
 python run.py
