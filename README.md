@@ -75,6 +75,12 @@ python run.py
 ```
 ## **Results**
 
+<style>
+td, th {
+   border: none!important;
+}
+</style>
+
 Basic             |  Deadly_Corridor           |  Defend_the_Center
 :-------------------------:|:-------------------------: |:-------------------------:
 ![vizdoom_Basic](res/Basic.gif)  |  ![vizdoom_Deadly_Corridor](res/Deadly_Corridor.gif)  |  ![vizdoom_Defend_the_Center](res/Defend_the_Center.gif) 
