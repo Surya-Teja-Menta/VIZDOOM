@@ -35,7 +35,7 @@ class ViZDoomGym(Env):
         #things to return
         if self.game.get_state():
             state=self.game.get_state().screen_buffer
-            state=self.graystate(state)
+            state=self.grayscale(state)
             ammo=self.game.get_state().game_variables[0]
             info=ammo
         else:
@@ -49,9 +49,9 @@ class ViZDoomGym(Env):
 
     def reset(self):
         self.game.new_episode()
-        return self.graystate(self.game.get_state().screen_buffer)
+        return self.grayscale(self.game.get_state().screen_buffer)
 
-    def graystate(self,observation):
+    def grayscale(self,observation):
         gray = cv2.cvtColor(np.moveaxis(observation, 0, -1), cv2.COLOR_BGR2GRAY)
         gray = cv2.resize(gray, (160, 100),interpolation=cv2.INTER_CUBIC)
         state=np.reshape(gray,(100,160,1))
