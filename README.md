@@ -75,9 +75,14 @@ python run.py
 ```
 ## **Results**
 
-![vizdoom_Basic](res/Basic.gif) ![vizdoom_Deadly_Corridor](res/Deadly_Corridor.gif) ![vizdoom_Defend_the_Center](res/Defend_the_Center.gif) 
+Basic             |  Deadly_Corridor           |  Defend_the_Center
+:-------------------------:|:-------------------------: |:-------------------------:
+![vizdoom_Basic](res/Basic.gif)  |  ![vizdoom_Deadly_Corridor](res/Deadly_Corridor.gif)  |  ![vizdoom_Defend_the_Center](res/Defend_the_Center.gif) 
 
-![vizdoom_Defend_the_line](res/Defend_the_line.gif) ![vizdoom_Health_gathering](res/Health_gathering.gif) ![vizdoom_Take_Cover](res/Take_Cover.gif)
+Defend_the_line             |  Health_gathering           |  Take_Cover
+:-------------------------:|:-------------------------: |:-------------------------:
+![vizdoom_Defend_the_line](res/Defend_the_line.gif)   |  ![vizdoom_Health_gathering](res/Health_gathering.gif)  |  ![vizdoom_Take_Cover](res/Take_Cover.gif)
+
 
 ## Examples
 
