@@ -75,11 +75,7 @@ python run.py
 ```
 ## **Results**
 
-<style>
-td, th {
-   border: none!important;
-}
-</style>
+
 
 Basic             |  Deadly_Corridor           |  Defend_the_Center
 :-------------------------:|:-------------------------: |:-------------------------:
